@@ -1,0 +1,29 @@
+# Keil MDK 编译产物
+*.o
+*.crf
+*.d
+*.lst
+*.dep
+*.axf
+*.htm
+*.lnp
+*.build_log.htm
+MDK-Project/Output/
+MDK-Project/Listings/
+MDK-Project/Objects/
+
+# Keil GUI 状态文件
+*.uvguix.*
+*.scvd
+
+# Arduino / VSCode 构建产物
+build/
+.vscode/
+*.code-workspace
+
+# 私密配置（WiFi 密码 / API Key），模板见 wifi_config_example.h
+wifi_config.h
+
+# 系统文件
+Thumbs.db
+.DS_Store
